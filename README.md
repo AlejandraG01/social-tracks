@@ -1,0 +1,7 @@
+TO RUN JUPYTER IN PYSPARK USE IN TERMINAL:
+
+export PYSPARK_DRIVER_PYTHON=jupyter
+export PYSPARK_DRIVER_PYTHON_OPTS='notebook'
+
+then:
+$SPARK_HOME/bin/pyspark
